@@ -13,7 +13,7 @@ var gT2 = [];
 var gMemo = [];
 
 function genData(n, step) {
-    for (let i = 0; i <= n; i += step) {
+    for (let i = 0; i <= gN; i += gStep) {
         gTime.push(i)
         gT1.push(readSensor1());
         gT2.push(readSensor2());
